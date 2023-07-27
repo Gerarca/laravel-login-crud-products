@@ -1,0 +1,26 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: -25px;
+}
+.image{
+    height: 43.2rem;
+    width: 96rem;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
